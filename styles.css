@@ -128,7 +128,7 @@
     }
 
     footer {
-      background: #333;
+      background: #000000ea;
       color: white;
       text-align: center;
       padding: 40px 20px;
@@ -185,10 +185,10 @@
     width: 0;
   }
   30% {
-    width: 40%;
+    width: 100%;
   }
   60% {
-    width: 40%;
+    width: 100%;
   }
   90% {
     width: 0;
@@ -216,7 +216,7 @@
     overflow: hidden;
     border-right: 2px solid #000;
     width: 0;
-    animation: typing 10s steps(30, end) infinite forwards, blink 0.5s step-end infinite;
+    animation: typing 9s steps(30, end) infinite forwards, blink 0.7s step-end infinite;
   }
 
   #last {
